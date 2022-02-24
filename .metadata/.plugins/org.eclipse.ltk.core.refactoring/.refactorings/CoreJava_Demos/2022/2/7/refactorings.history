@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LeapYearExample.java&apos; to &apos;CoreJava_Demos/src/com.org.gen.day1.home.work&apos;&#x0D;&#x0A;- Original project: &apos;CoreJava_Demos&apos;&#x0D;&#x0A;- Destination element: &apos;CoreJava_Demos/src/com.org.gen.day1.home.work&apos;&#x0D;&#x0A;- Original element: &apos;com.org.gen.day1.LeapYearExample.java&apos;" description="Copy compilation unit" destination="/src&lt;com.org.gen.day1.home.work" element1="/src&lt;com.org.gen.day1{LeapYearExample.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1644250142118" units="1" version="1.0"/>
+</session>

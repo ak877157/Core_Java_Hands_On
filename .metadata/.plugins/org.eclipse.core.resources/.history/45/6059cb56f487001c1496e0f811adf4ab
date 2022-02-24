@@ -1,0 +1,14 @@
+package com.org.gen.day1;
+
+public class AutoTypeConv {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int num = 10;
+System.out.println("Integer value is : "+num);
+
+double data = num;
+System.out.println("Double value is : "+data);
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.org.gen.day1;
+
+import java.util.Scanner;
+public class SwitchCaseDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int choice;
+		String menu;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter your choice : ");
+		System.out.println("Enter 1 for Coffee : ");
+		System.out.println("Enter 2 for Tea : ");
+		System.out.println("Enter 3 for Cold Drink : ");
+		System.out.println("Enter 4 Main Course : ");
+		
+		choice = sc.nextInt();
+
+	}
+
+}

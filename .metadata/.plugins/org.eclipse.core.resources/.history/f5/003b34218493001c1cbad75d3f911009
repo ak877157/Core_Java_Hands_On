@@ -1,0 +1,40 @@
+package com.org.gen.day11;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+//preparedStatement interface : it is a sun interface of statement, and used for excute parameterized query
+//methods in preparedStatement is  : setInt(), SetString(), setFloat(), execute(), executeQuery()
+
+
+public class InsertDataDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			//step 1
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			System.out.println("Driver is loading");
+			
+			//step 2
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels","root","root");
+			System.out.println("Connecting to DB");
+			
+			//step 3
+			PreparedStatement pr = con.prepareStatement("insert into abc(?,?)");
+			pr.setInt(1, 104);
+			pr.setString(2, "Shivansh");
+			pr.executeUpdate();
+			
+			System.out.println("Record saved......");
+			con.close();
+			
+		 	
+		} catch (Exception e) {	
+			// TODO: handle exception
+		}
+
+	}
+
+}

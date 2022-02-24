@@ -1,0 +1,12 @@
+package com.org.gen.day1;
+
+import java.util.Scanner;
+
+public class LeapYearExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

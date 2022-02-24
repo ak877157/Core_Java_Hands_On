@@ -1,0 +1,10 @@
+package com.org.gen.coding.test;
+import java.utili.*;
+public class AirLineDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

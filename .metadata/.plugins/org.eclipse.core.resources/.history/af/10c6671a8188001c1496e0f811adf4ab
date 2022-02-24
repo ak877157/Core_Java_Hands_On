@@ -1,0 +1,16 @@
+package com.org.gen.day1.home.work;
+
+import java.util.Scanner;
+
+public class DoWhileDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int pin;
+		System.out.println("Enter Your ATM pin : ");
+		Scanner sc = new Scanner(System.in);
+		pin = sc.nextInt();
+
+	}
+
+}

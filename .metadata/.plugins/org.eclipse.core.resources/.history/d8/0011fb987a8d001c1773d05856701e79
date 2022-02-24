@@ -1,0 +1,23 @@
+package com.org.gen.coding.test;
+
+class Customer{
+	
+}
+
+class Account{
+	
+}
+
+class RBI{
+	
+}
+
+
+public class RBIExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

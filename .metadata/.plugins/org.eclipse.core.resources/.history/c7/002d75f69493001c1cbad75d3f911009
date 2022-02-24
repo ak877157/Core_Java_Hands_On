@@ -1,0 +1,10 @@
+package com.org.gen.day11.homework;
+
+public class Developer {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

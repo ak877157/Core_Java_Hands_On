@@ -1,0 +1,36 @@
+package com.org.gen.day1.home.work;
+
+class Rectangle{
+	double length;
+	double width;
+	
+	void setRectangle(double length, double widht) {
+		this.length=length;
+		this.width=width;
+	}
+	double getArea() {
+		return (length*width);
+	}
+}
+
+class Box extends Rectangle{
+	double height;
+	
+	void setBox(double length, double width, double height) {
+		setRectangle(length,width);
+		this.height=height;
+	}
+	
+	double getVolume() {
+		return getarea
+	}
+}
+
+public class ShapeDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

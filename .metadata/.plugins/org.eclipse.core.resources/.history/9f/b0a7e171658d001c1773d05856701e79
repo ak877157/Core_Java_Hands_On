@@ -1,0 +1,21 @@
+package com.org.gen.day1.home.work;
+
+class Rectangle{
+	double length;
+	double width;
+	
+	void setRectangle(double length, double widht) {
+		this.length=length;
+		this.width=width;
+	}
+	double getarea();
+}
+
+public class ShapeDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

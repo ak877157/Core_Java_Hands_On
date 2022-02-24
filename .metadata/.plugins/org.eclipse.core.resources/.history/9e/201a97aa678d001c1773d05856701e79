@@ -1,0 +1,16 @@
+package com.org.gen.coding.test;
+
+class Bank{
+	int getBalance() {
+		return 0;
+	}
+}
+
+public class BankDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

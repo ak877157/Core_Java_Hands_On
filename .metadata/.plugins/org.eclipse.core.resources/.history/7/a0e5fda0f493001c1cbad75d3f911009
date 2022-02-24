@@ -1,0 +1,25 @@
+package com.org.gen.day11.homework;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class GetConnection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stubC
+		try {
+			//step 1
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels","root","root");
+			System.out.println("Connecting to database");
+			
+			//step2
+			Statement stmt = con.createStatement();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}

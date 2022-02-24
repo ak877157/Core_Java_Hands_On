@@ -1,0 +1,33 @@
+package com.org.gen.coding.test;
+
+class Bank{
+	int getBalance() {
+		return 0;
+	}
+}
+
+class A extends Bank{
+	int getBalance(int balance) {
+		return balance;
+	}
+}
+
+class B extends Bank{
+	int getBalance(int balance) {
+		return balance;
+	}
+}
+
+class C extends Bank{
+	int getBalance(int balance) {
+		return balance;
+	}
+}
+public class BankDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

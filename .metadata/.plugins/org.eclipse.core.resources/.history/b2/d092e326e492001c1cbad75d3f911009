@@ -1,0 +1,24 @@
+package com.org.gen.day11;
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class DataConnection {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			//step 1
+			Class.forName("com.mysql.jdbc.Driver");
+			System.out.println("Driver is loading");
+			
+			//step 2
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/classicmodels","root","root");
+			
+			
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}
